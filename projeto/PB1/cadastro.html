@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Deep Waves</title>
+    <link rel="shortcut icon" href="img/favicon-16x16.png" />
+    <header>
+
+    </header>
+</head>
+
+<body>
+    <pre></pre>
+    <div style=text-align:center>
+        <center><img src="img/user.png" class="user" width="100" height="100" alt=""></center>
+        <font face="Modern" size="7"> Deep Waves </font>
+        <pre></pre>
+        <h2> Cadastro</h2>
+        <h4> Para se cadastrar, entre com suas informações pessoais</h4>
+        <form method="POST" action="">
+
+            <label for="email">Nome: </label>
+            <input type="text" name="" required name=nome placeholder="Nome">
+            <pre></pre>
+
+            <label for="email">Email: </label>
+            <input type="email" name="" required name=email placeholder="contato@mail.com">
+            <pre></pre>
+            <label for="senha">Senha: </label>
+            <input type="password" name="" id="password" required name=senha placeholder="****">
+            <pre></pre>
+            <label for="senha">Senha: </label>
+            <input type="password" placeholder="Confirme  a Senha" id="confirm_password" required>
+            <pre></pre>
+            <pre></pre>
+            <input type="checkbox" name="termos" value="concordancia" required name=termo>Eu concordo com os <input
+                type="button" value="Termos" onclick="msg()"> deste site.
+
+            <pre></pre>
+            <a href="./menu.html"><input type="submit" value="Cadastrar" /></a>
+            <p class="link">
+
+                <a href="./index.html">Já tem conta?</a>
+            </p>
+        </form>
+    </div>
+</body>
+<footer>
+
+</footer>
+<style>
+    a {
+        text-decoration: none;
+    }
+</style>
+<script>
+
+    var password = document.getElementById("password")
+        , confirm_password = document.getElementById("confirm_password");
+
+    function validatePassword() {
+        if (password.value != confirm_password.value) {
+            confirm_password.setCustomValidity("Senhas diferentes!");
+        } else {
+            confirm_password.setCustomValidity('');
+        }
+    }
+
+    password.onchange = validatePassword;
+    confirm_password.onkeyup = validatePassword;
+
+    function msg() {
+        alert("As informações aqui contidas foram retiradas de sites da internet e não necessariamente expressam as opiniões dos proprietários deste site.");
+    }
+</script>
+<footer>
+    <pre></pre>
+    <div style=text-align:right>Ícones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+</footer>
+
+</html>
