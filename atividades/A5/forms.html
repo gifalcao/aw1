@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario TAGS</title>
+</head>
+
+<body>
+    <h1>Tags Formulario</h1>
+    <form>
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required="true" placeholder="Nome" autofocos>
+            <br></br>
+            <label for="senha">Senha: </label>
+            <input type="password" name="" id="password" placeholder="****" readonly>
+            <br></br>
+            <label for="senha">Senha: </label>
+            <input type="password" placeholder="Confirme  a Senha" id="confirm_password">
+            <br></br>
+            <input type="checkbox" name="termos" value="concordancia">Eu concordo com os termos</input>
+            <br></br>
+            <label for=" festa">Data de nascimento:</label>
+            <input type="date" id="nascimento" name="nascimento" required autocomplete="off">
+            <br></br>
+            <input type="submit" value="Submit">
+        </fieldset>
+        <br></br>
+        <legend>Opções</legend>
+        <select id="marcas" name="marcas">
+            <option value="iphone">Iphone</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Motorola">Motorola</option>
+            <option value="LG">LG</option>
+        </select>
+        <br></br>
+        <legend>Por que está preferência?</legend>
+        <textarea name="message" rows="10" cols="30">
+        </textarea>
+        <br></br>
+        <legend>Preferência de navegadores:</legend>
+        <input list="navegadores">
+        <datalist id="navegadores">
+            <option value="Safari">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+        </datalist>
+
+    </form>
+</body>
+
+</html>
