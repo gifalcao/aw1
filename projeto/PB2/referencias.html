@@ -14,28 +14,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
 
-</head>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-<body>
-    <div class="menu">
+        <div class="overlay-content">
+            <a href="zonasabissais.html">ZONAS ABISSAIS</a>
+            <a href="seresabissais.html">SERES ABISSAIS</a>
+            <a href="teorias.html">TEORIAS</a>
+            <a href="documentarios.html">DOCUMENTÁRIOS</a>
+            <a href="expedicoes.html">EXPEDIÇÕES</a>
+            <a href="referencias.html">REFERÊNCIAS</a>
 
+            <a href="index.html">SAIR</a>
+
+        </div>
+
+    </div>
+
+    <span onclick="openNav()">
         <div class="menulat">
             <img src="img/logo.png" class="user" width="90" height="90" alt="logo">
             <h1> Deep Waves </h1>
         </div>
-        <ul id="lateral" style="list-style-type:none;">
-            <br></br><br></br><br></br><br></br><br></br>
-            <li> <a href="zonasabissais.html"><input type="submit" value="ZONAS ABISSAIS" /></a></li>
-            <li> <a href="seresabissais.html"><input type="submit" value="SERES ABISSAIS" /></a></li>
-            <li> <a href="teorias.html"><input type="submit" value="TEORIAS" /></a></li>
-            <li> <a href="documentarios.html"><input type="submit" value="DOCUMENTÁRIOS" /></a></li>
-            <li> <a href="expedicoes.html"><input type="submit" value="EXPEDIÇÕES" /></a></li>
-            <li> <a href="referencias.html"><input type="submit" value="REFERÊNCIAS" /></a></li>
-            <div class="sair">
-                <li> <a href="index.html"><input type="submit" value="SAIR" /></a></li>
-            </div>
-        </ul>
-    </div>
+    </span>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</head>
+
+<body>
     <div class="conteudo">
         <h1 class="h1">REFERÊNCIAS</h1>
         <h4 class="h4">
