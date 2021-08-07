@@ -118,18 +118,16 @@ position: fixed;
     position: absolute;
     color:  var(--text-shadow);   
 }
-.user{
-    display: block;
-  margin-left: 2.5rem;
-  margin-right: auto;
-  width: 5.625rem;
+.menu{
+    margin-top:0.313rem;
+    margin-left: 0.313rem;
 }
        .conteudo{
 
         width: 94%;
        height: 38.75rem;
        position: relative;
-       top: 10rem;
+       top: 5rem;
        left: 1.875rem;
        right: 1.875rem;
        text-align: justify;
