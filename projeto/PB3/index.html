@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="main.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+
+    <title>GIGI'S PIANO</title>
+</head>
+<script src="js/main.js"></script>
+
+<body>
+    <section id="pag1">
+        <header>
+            <nav>
+                <div class="menu_nav">
+                    <ul id=listaop>
+                        <li><a class="menu" href="#pag1">HOME</a></li>
+                        <li><a class="menu" href="#pag2">PIANO LIVRE</a></li>
+                        <li><a class="menu" href="#pag3">TOQUE JUNTO</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+        <img src="img/logo.png" class="user" width="350" height="350" alt="logo">
+        <h2 class="texto">
+            O GIGI'S PIANO é uma aplicação que concede uma experiência com um piano digital, desenvolvida por uma
+            aluna do IFSP do terceiro ano do ensino médio integrado técnico em informática.
+        </h2>
+
+    </section>
+    <section id="pag2">
+        <h2 class="title">Piano Livre</h2>
+        <section class="conteudo">
+            <h4 class="texto_info">
+                O GIGI'S PIANO oferece um piano simples, basta clicar nas teclas e experimentar.
+            </h4>
+        </section>
+        <div id="content-inner">
+            <div id="piano">
+                <h1>Gigi's Piano</h1>
+                <div class="help" tabindex="1">
+
+                </div>
+
+                <div class="keys">
+                    <div class="white key" data-key="65" data-note="C">
+                    </div>
+                    <div class="black key sharp" data-key="87" data-note="C#"></div>
+
+                    <div class="white key" data-key="83" data-note="D"></div>
+                    <div class="black key sharp" data-key="69" data-note="D#"> </div>
+                    <div class="white key" data-key="68" data-note="E"></div>
+                    <div class="white key" data-key="70" data-note="F"></div>
+                    <div class="black key sharp" data-key="84" data-note="F#"></div>
+                    <div class="white key" data-key="71" data-note="G"></div>
+                    <div class="black key sharp" data-key="89" data-note="G#"></div>
+                    <div class="white key" data-key="72" data-note="A"></div>
+                    <div class="black key sharp" data-key="85" data-note="A#"></div>
+                    <div class="white key" data-key="74" data-note="B"></div>
+                    <div class="white key" data-key="75" data-note="C"></div>
+                    <div class="black key sharp" data-key="79" data-note="C#"></div>
+                    <div class="white key" data-key="76" data-note="D"></div>
+                    <div class="black key sharp" data-key="80" data-note="D#"></div>
+                    <div class="white key" data-key="186" data-note="E"></div>
+                    <div class="white key" data-key="70" data-note="F"></div>
+                    <div class="black key sharp" data-key="84" data-note="F#"></div>
+                    <div class="white key" data-key="71" data-note="G"></div>
+                    <div class="black key sharp" data-key="89" data-note="G#"></div>
+                    <div class="white key" data-key="72" data-note="A"></div>
+                    <div class="black key sharp" data-key="85" data-note="A#"></div>
+                </div><canvas width="20" height="20"
+                    style="position: absolute; top: 26px; right: 116px; width: 20px; height: 20px; cursor: pointer;"></canvas>
+            </div>
+        </div>
+        <section class="audios">
+            <audio data-key="65" src="sounds/040.wav"></audio>
+            <audio data-key="87" src="sounds/041.wav"></audio>
+            <audio data-key="83" src="sounds/042.wav"></audio>
+            <audio data-key="69" src="sounds/043.wav"></audio>
+            <audio data-key="68" src="sounds/044.wav"></audio>
+            <audio data-key="70" src="sounds/045.wav"></audio>
+            <audio data-key="84" src="sounds/046.wav"></audio>
+            <audio data-key="71" src="sounds/047.wav"></audio>
+            <audio data-key="89" src="sounds/048.wav"></audio>
+            <audio data-key="72" src="sounds/049.wav"></audio>
+            <audio data-key="85" src="sounds/050.wav"></audio>
+            <audio data-key="74" src="sounds/051.wav"></audio>
+            <audio data-key="75" src="sounds/052.wav"></audio>
+            <audio data-key="79" src="sounds/053.wav"></audio>
+            <audio data-key="76" src="sounds/054.wav"></audio>
+            <audio data-key="80" src="sounds/055.wav"></audio>
+            <audio data-key="186" src="sounds/056.wav"></audio>
+        </section>
+    </section>
+    <section id="pag3">
+        <h2 class="title">Toque Junto</h2>
+        <section class="conteudo">
+            <h4 class="texto_info">
+                O GIGI'S PIANO oferece a experiência de tocar junto de uma música, basta escolher uma das opções
+                abaixo, em nossa lista de música e se divertir.
+            </h4>
+        </section>
+        <br></br>
+        <div id="songs">
+            <h4>Selecione uma música: </h4>
+            <center><button class="button">Queen - Bohemian Rhapsody</button></center>
+            <center>
+                <h4 style="color: black;">Para fazer download da partitura da música "Queen - Bohemian Rhapsody", <a
+                        href="Queen - Bohemian Rhapsody.pdf" id="meulink">clique aqui.</a></h4>
+            </center>
+            <br></br>
+            <center><button class="button">The Cinematic Orchestra - To Build A Home</button></center>
+            <audio src="sounds/The Cinematic Orchestra - To Build A Home.wav">The Cinematic Orchestra -
+                To Build A Home</audio>
+            <center>
+                <h4 style="color: black;">Para fazer download da partitura da música "The Cinematic Orchestra - To Build
+                    A Home", <a href="The Cinematic Orchestra - To Build A Home.pdf" id="meulink">clique aqui.</a>
+                </h4>
+            </center>
+
+        </div>
+        <div id="content-inner">
+            <div id="piano">
+                <h1>Gigi's Piano</h1>
+                <div class="help" tabindex="1">
+                </div>
+                <div class="keys">
+                    <div class="white key" data-key="65" data-note="C">
+                    </div>
+                    <div class="black key sharp" data-key="87" data-note="C#"></div>
+                    <div class="white key" data-key="83" data-note="D"></div>
+                    <div class="black key sharp" data-key="69" data-note="D#"> </div>
+                    <div class="white key" data-key="68" data-note="E"></div>
+                    <div class="white key" data-key="70" data-note="F"></div>
+                    <div class="black key sharp" data-key="84" data-note="F#"></div>
+                    <div class="white key" data-key="71" data-note="G"></div>
+                    <div class="black key sharp" data-key="89" data-note="G#"></div>
+                    <div class="white key" data-key="72" data-note="A"></div>
+                    <div class="black key sharp" data-key="85" data-note="A#"></div>
+                    <div class="white key" data-key="74" data-note="B"></div>
+                    <div class="white key" data-key="75" data-note="C"></div>
+                    <div class="black key sharp" data-key="79" data-note="C#"></div>
+                    <div class="white key" data-key="76" data-note="D"></div>
+                    <div class="black key sharp" data-key="80" data-note="D#"></div>
+                    <div class="white key" data-key="186" data-note="E"></div>
+                    <div class="white key" data-key="70" data-note="F"></div>
+                    <div class="black key sharp" data-key="84" data-note="F#"></div>
+                    <div class="white key" data-key="71" data-note="G"></div>
+                    <div class="black key sharp" data-key="89" data-note="G#"></div>
+                    <div class="white key" data-key="72" data-note="A"></div>
+                    <div class="black key sharp" data-key="85" data-note="A#"></div>
+                </div><canvas width="20" height="20"
+                    style="position: absolute; top: 26px; right: 116px; width: 20px; height: 20px; cursor: pointer;"></canvas>
+            </div>
+        </div>
+        <section class="audios">
+            <audio data-key="65" src="sounds/040.wav"></audio>
+            <audio data-key="87" src="sounds/041.wav"></audio>
+            <audio data-key="83" src="sounds/042.wav"></audio>
+            <audio data-key="69" src="sounds/043.wav"></audio>
+            <audio data-key="68" src="sounds/044.wav"></audio>
+            <audio data-key="70" src="sounds/045.wav"></audio>
+            <audio data-key="84" src="sounds/046.wav"></audio>
+            <audio data-key="71" src="sounds/047.wav"></audio>
+            <audio data-key="89" src="sounds/048.wav"></audio>
+            <audio data-key="72" src="sounds/049.wav"></audio>
+            <audio data-key="85" src="sounds/050.wav"></audio>
+            <audio data-key="74" src="sounds/051.wav"></audio>
+            <audio data-key="75" src="sounds/052.wav"></audio>
+            <audio data-key="79" src="sounds/053.wav"></audio>
+            <audio data-key="76" src="sounds/054.wav"></audio>
+            <audio data-key="80" src="sounds/055.wav"></audio>
+            <audio data-key="186" src="sounds/056.wav"></audio>
+        </section>
+    </section>
+
+    <footer>
+        <ul id=rodape>
+            <h4>Gigi's Piano - Giovanna Falcão, 2021. ©</h4>
+            <center><a href="mailto: gitfalcao@gmail.com" id="link" title=>Contate-me aqui 📥</a></center>
+            <li>
+                <a href="www.linkedin.com/in/giovanna-falcão" target="blank" style="text-decoration: none;">
+                    <img class="redes_sociais" src="img/iconlinkedin.png" alt="" width="30">
+                </a>
+                <a href="https://www.instagram.com/gifalcao_/" target="blank" style="text-decoration: none;">
+                    <img class="redes_sociais" src="img/Instagram_icon.png" alt="" width="30">
+                </a>
+            </li>
+        </ul>
+    </footer>
+    </section>
+</body>
+
+</html>
