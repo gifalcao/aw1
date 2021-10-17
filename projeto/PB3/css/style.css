@@ -4,7 +4,8 @@
 } 
 html{
     scroll-behavior: smooth;
-    
+    width: 100%;
+
 overflow-x: hidden;
 }
 
@@ -55,12 +56,14 @@ a.menu {
     height: 100vh;
     justify-content: center;
     align-items: center;
+
 }
 
 #pag3{
     background-image: linear-gradient(to bottom,#366d7d, #44889c, #5fa5b9);   
     background-size: cover;
     height: 150vh;
+
 }
 
 section.conteudo {
@@ -115,18 +118,21 @@ header{
 
 .texto {
     
-    width: 60vw;  
+    width: 50vw;  
     font-size: 2.5vw;  
     display: block;
     margin-top:-130px;
     text-align: justify;
     padding-left: 33vw;
+    margin-left: 6vw;
+
 }
 .texto_info {
-    width: 60vw;  
+    width: 80vw;  
     font-size: 1.5vw;  
       text-align: justify;
-    padding-left: 10vw;
+       margin-left: 3vw;
+
 }
 #meulink{
     color: #90c0ce;
@@ -310,4 +316,228 @@ h1 {
     padding-top: 4vh;
     padding-left: 5vw;
     padding-right: 5vw;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1100px) {
+    
+    #pag1 {
+        height: 120vh;
+    }
+
+    #pag2{
+        padding: 2vw 1vw;
+        height: 80vh;
+    }
+    
+    #pag3 {
+        padding: 2vw 1vw;
+        height: 120vh;
+    }
+  
+    .texto {
+        width: 40vw;  
+        font-size: 2.5vw;  
+        display: block;
+        margin-top:-130px;
+        text-align: justify;
+        padding-left: 33vw;
+        margin-left: 6vw;
+    
+    }
+    .texto_info {
+        width: 70vw;  
+        font-size: 2.5vw;  
+          text-align: justify;
+           margin-left: 3vw;
+    
+    }
+}
+
+@media (max-width: 850px) {
+    
+    #pag2{
+        height: 100vh;
+        padding: 2vw 5vw;
+
+    } 
+    #pag1{
+        height: 100vh;
+
+    }
+    
+    #pag3 {
+        height: 130vh;
+    }
+    .texto {
+        width: 40vw;  
+        font-size: 2.5vw;  
+        display: block;
+        margin-top:-120px;
+        text-align: justify;
+        padding-left: 33vw;
+        margin-left: 6vw;
+    
+    }
+    .texto_info {
+        width: 70vw;  
+        font-size: 2.5vw;  
+          text-align: justify;
+           margin-left: 3vw;
+    
+    }
+}
+
+
+@media (max-width: 720px) {
+    #listaop {
+        
+        font-size: 2.8vw;
+    }
+    #pag2{
+        height: 100vh;
+        padding: 2vw 5vw;
+
+    } 
+    #pag1{
+        height: 100vh;
+
+    }
+    
+    #pag3 {
+        height: 130vh;
+
+    }
+    .user{
+        padding-top: 5vh;
+        align-items: center;
+        padding-left: -7vw;
+        }
+ 
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #pag2{
+        height: 100vh;
+        padding: 2vw 5vw;
+    } 
+    #pag1{
+        height: 100vh;
+    }
+    
+    #pag3 {
+        height: 130vh;
+    }
+    .texto {
+        width: 40vw;  
+        font-size: 3.5vw;  
+        display: block;
+        margin-top:-110px;
+        text-align: justify;
+        padding-left: 33vw;
+        margin-left: 6vw;
+    
+    }
+    .texto_info {
+        width: 70vw;  
+        font-size: 3.5vw;  
+          text-align: justify;
+           margin-left: 3vw;
+    
+    }
+}
+
+@media (max-width: 500px) {
+    #pag2{
+        height: 100vh;
+        padding: 2vw 5vw;
+    } 
+    #pag1{
+        height: 100vh;
+    }
+    
+    #pag3 {
+        height: 130vh;
+    }}
+
+@media (max-width: 450px) {
+    #pag2{
+        height: 100vh;
+        padding: 2vw 5vw;
+    } 
+    #pag1{
+        height: 100vh;
+    }
+    
+    #pag3 {
+        height: 130vh;
+    }  
+}
+
+@media (max-width: 400px) {
+    #pag2{
+        height: 100vh;
+        padding: 2vw 5vw;
+    } 
+    #pag1{
+        height: 100vh;
+    }
+    
+    #pag3 {
+        height: 130vh;
+    }  
+}
+
+@media (max-width: 360px) {
+    #pag2{
+        height: 100vh;
+        padding: 2vw 5vw;
+    } 
+    #pag1{
+        height: 100vh;
+    }
+    
+    #pag3 {
+        height: 130vh;
+    }
+}
+
+@media (max-width: 330px) {
+    #pag2{
+        height: 100vh;
+        padding: 2vw 5vw;
+    } 
+    #pag1{
+        height: 100vh;
+    }
+    
+    #pag3 {
+        height: 130vh;
+    }
+
+}
+
+@media (max-width: 320px) {
+    #pag2{
+        height: 100vh;
+        padding: 2vw 5vw;
+    } 
+    #pag1{
+        height: 100vh;
+    }
+    
+    #pag3 {
+        height: 130vh;
+    }
 }
