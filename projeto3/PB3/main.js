@@ -53,4 +53,3 @@ function registerEvents() {
 
 window.addEventListener("load", registerEvents)
 
-
